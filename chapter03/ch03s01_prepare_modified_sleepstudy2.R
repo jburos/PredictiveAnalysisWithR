@@ -3,7 +3,7 @@ require(reshape2); require(plyr); require(lubridate); require(lme4); data(sleeps
 sleepstudy2 <- mutate( .data = sleepstudy
                        , start_date = as.Date( '2012-01-01' )
                        , reaction_date = as.Date( start_date + Days, origin = '1970-01-01')
-                       , day_of_week = lubridate::wday( reaction_date, label = T )
+                       , day_of_week = wday( reaction_date, label = T )
                        )
 head( sleepstudy2, n = 3 )
 
