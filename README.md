@@ -1,2 +1,2 @@
-PredictiveBook
+PredictiveAnalysisWithR
 ==============
