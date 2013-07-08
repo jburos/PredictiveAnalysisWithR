@@ -14,3 +14,7 @@ sleeplong2 <- melt( sleepstudy2
 head( sleeplong2, n = 3 )
 
 subset( sleeplong2, Subject == 308 & Days == 0)
+
+
+str( sleepstudy2 )
+str( sleeplong2 )
