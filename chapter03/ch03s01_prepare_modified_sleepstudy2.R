@@ -8,12 +8,9 @@ sleeplong2 <- melt( sleepstudy2
                     , id.vars = c( "Subject", "Days" )
                     )
 
-head( sleepstudy2 )
-
 head( sleeplong2 )
 
 subset( sleeplong2, Subject == 308 & Days <= 3 )
-
 
 str( sleepstudy2 )
 str( sleeplong2 )
